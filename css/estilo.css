@@ -26,3 +26,19 @@ text-align: center;
 width: 960px;
 margin: auto;
 }
+
+a{color: #E3AE57}
+.redes-sociais li{display: inline-block; margin: 0 5px;}
+.redes-sociais li a{display: inline-block;}
+
+.redes-sociais li span{ 
+	width: 48px; height: 48px; background-repeat: no-repeat;
+	overflow: hidden; text-indent: 7000px; display: inline-block;
+}
+
+.github {background-image: url('../img/github.png');}
+
+.youtube {background-image: url('../img/youtube.png');
+-webkit-filter: grayscale(100%); filter grayscale(100%);}
+
+.youtube:hover{-webkit-filter: grayscale(0%); filter grayscale(0%);}
