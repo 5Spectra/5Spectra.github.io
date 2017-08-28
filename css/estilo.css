@@ -40,5 +40,25 @@ a{color: #E3AE57}
 
 .youtube {background-image: url('../img/youtube.png');
 -webkit-filter: grayscale(100%); filter grayscale(100%);}
-
 .youtube:hover{-webkit-filter: grayscale(0%); filter grayscale(0%);}
+
+
+.engine{background-color: #27ae69; border: 2px solid #27ae69}
+.engine:hover{background-color: #2ecc71}
+
+.design{background-color: #2980b9; border: 2px solid #2980b9}
+.design:hover{background-color: #3498db}
+
+.banco{background-color: #8e44ad; border: 2px solid #8e44ad}
+.banco:hover{background-color: #9b59b6}
+
+.tresD{background-color: #2c3e50; border: 2px solid #2c3e50}
+.tresD:hover{background-color: #34495e}
+
+
+footer{
+	margin-top: 50px; padding-top: 20px;
+	padding-bottom: 50px; background-color: #dc3d24;
+	text-shadow: 0.5 1.5px #232b2b;
+	position: fixed; bottom: 0px; width: 960px;
+}
